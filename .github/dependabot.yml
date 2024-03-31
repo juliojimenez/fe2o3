@@ -6,3 +6,33 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: cargo
+    directory: data-types
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: cargo
+    directory: functions
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: cargo
+    directory: control-flow
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: cargo
+    directory: hello
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: cargo
+    directory: hello_cargo
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
