@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: cargo
-    directory: guessing_game
+    directory: control-flow
     schedule:
       interval: daily
       time: "05:00"
@@ -19,7 +19,7 @@ updates:
       time: "05:00"
       timezone: UTC
   - package-ecosystem: cargo
-    directory: control-flow
+    directory: guessing_game
     schedule:
       interval: daily
       time: "05:00"
@@ -32,6 +32,18 @@ updates:
       timezone: UTC
   - package-ecosystem: cargo
     directory: hello_cargo
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: cargo
+    directory: ownership
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: cargo
+    directory: references-and-borrowing
     schedule:
       interval: daily
       time: "05:00"
